@@ -1,0 +1,11 @@
+
+ @media screen and (min-width: 800px){
+     .container {
+         display: grid;
+         height: 100%;
+         grid-template-columns: 65% 35%;
+         grid-template-rows: 150px 1fr 1fr 150px;
+         grid-template-areas: "hd hd hd hd" "main nav nav nav" "main nav nav nav" "ft ft ft ft";
+         justify-content: right;
+    }
+}

@@ -1,0 +1,88 @@
+
+ .headerBox{
+     display: flex;
+     grid-area: hd;
+     flex-direction: column;
+     text-align: center;
+     line-height: 10px;
+}
+ .header-subtitle{
+     font-size: 14px;
+     word-spacing: 2px;
+}
+ .navBox{
+     display: flex;
+     grid-area: nav;
+     flex-direction: row;
+     justify-content: center;
+     padding: 10px;
+}
+ #button {
+     border: 1px solid aqua;
+     padding: 15px;
+     box-shadow: 2px 2px 4px 2px grey;
+     text-decoration: none;
+     height: 15px;
+     width: 50%;
+     padding: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+}
+ #button:hover{
+     background-color: grey;
+     color: white;
+}
+ .content{
+     grid-area: main;
+     padding: 20px;
+}
+ .contentContainer {
+     display: grid;
+     height: 100%;
+     width: 100%;
+     grid-template-columns: 100%;
+     grid-template-rows: 275px 30px 15px 275px 30px 15px;
+     align-items: center;
+     text-align: center;
+     grid-gap: 5px;
+     box-shadow: 3px 3px 4px 3px lightgrey;
+     background-color: white;
+}
+ #box {
+     display: flex;
+     margin:auto;
+     width: 400px;
+     height: 250px;
+     box-shadow: 3px 3px 5px 3px lightgrey;
+     text-align: center;
+     padding: 2px;
+     height: 70%;
+     width: 70%;
+     border-radius: 10px 
+}
+ #box:hover {
+     box-shadow: 2px 2px 4px 2px grey;
+}
+ #captionBox {
+     padding: 30px;
+}
+ .footer {
+     display: flex;
+     grid-area: ft;
+     justify-content: center;
+     padding: 30px;
+}
+ .fa {
+     padding: 10px;
+     font-size: 30px;
+     width: 10px;
+     height: 10px;
+     text-align: center;
+     text-decoration: none;
+     margin: 3px 4px;
+}
+ .fa-linkedin {
+     background: #007bb5;
+     color: white;
+}
+

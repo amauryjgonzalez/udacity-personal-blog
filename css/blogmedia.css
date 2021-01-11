@@ -1,0 +1,10 @@
+ @media screen and (min-width: 800px){
+     .container{
+         display:grid;
+         height: 100%;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+         grid-template-rows: 150px 60px 1fr 150px;
+         justify-content: center;
+         grid-template-areas: "hd hd hd hd hd hd hd" "ct ct ct ct nav nav nav" "ct ct ct ct au au au" "ft ft ft ft ft ft ft";
+    }
+}
